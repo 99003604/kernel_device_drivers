@@ -1,0 +1,6 @@
+obj-m +=param.o
+
+KSRC=/home/ltts/ebuild/kernel_ws/linux-4.14.224
+
+all:
+	make -c ${make -c ${KSRC} m=${PWD} modules ARCH=arm CROSS_COMPILE=arm-linux_gnueabi-
